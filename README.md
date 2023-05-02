@@ -2,7 +2,7 @@
 This is a simple Python script that replaces all instances of .live() events in your jQuery codebase with their equivalent .on() events bound to document.
 
 How to use
-Clone this repository using git clone https://github.com/your_username/your_repository.git
+Clone this repository using git clone https://github.com/pradeep-pk/jquery-live-event-changer.git
 Ensure that you have Python 3 installed on your system.
 Run the script using  python jquery_live_event_changer.py 'path/to/replace/live/events'
 The script will modify the jQuery file in place and replace all instances of .live() with $(document).on().
